@@ -17,6 +17,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>type</td>
+	<td>id=forfatter</td>
+	<td>jensen</td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
 	<td>name=mainform</td>
 	<td></td>
@@ -26,7 +31,6 @@
 	<td>css=div.error</td>
 	<td>For stort søgesæt - du kan kun se søgesæt på under 100.000 poster. Prøv at begrænse søgningen - se tips nedenfor:</td>
 </tr>
-
 </tbody></table>
 </body>
 </html>
