@@ -1,1 +1,1 @@
-glbibdk/demo.suite old-bibdk
+glbibdk/demo.suite
