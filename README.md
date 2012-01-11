@@ -4,20 +4,9 @@ Dette repositorie indeholder grænsefladetests, der skal køres automatisk.
 
 For at tilføje en test: 
 
-- tilføj en linje i testsuites.txt med filnavnet på testsuiten, efterfulgt af tags
+- tilføj en linje i bibliotekdk.lst med filnavnet på testsuiten (eller opret/rediger en anden liste af testsuites til andre sites)
 - lav en testsuite i selenium-IDE
 - commit/push ændringerne til dette git-repositorie
-
-----
-
-Tags kan bruges til at angive hvilke sites testen kan køres på, mulighederne er:
-
-- `old-bibdk` - den nuværende(gamle) udgave af bibliotek.dk
-- `bibdk` - drupal udgaven af bibliotek.dk
-- `artesis` 
-- `ding2` 
-
-derudover vil der også være tags til at fravælge platforme, hvis det vides at suiten fejler på visse platforme, eksempelvis `no-ie` eller `no-ie6` 
 
 ----
 
@@ -46,7 +35,7 @@ Vi har nogle udvidelser til selenese når det køre automatisk:
     - Eksperimenter med at optage grænsefladeinteraktioner, husk at gem hver enkelt test
     - Gem til sidst hele suiten
 - Commit af ændringer
-    - Opdater testsuites.txt
+    - Opdater bibliotekdk.lst
     - Start "Git GUI" og åbn repositoriet
     - Synkroniser med repositoriet: `Remote` -> `Fetch from` -> `origin`
     - Klik `Rescan` og herefter `Stage Changed` for at finde og forberede ændringerne
