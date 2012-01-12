@@ -1,3 +1,5 @@
+TODO: add link to selenese-description
+
 # Selenium tests for DBC websites
 
 Dette repositorie indeholder grænsefladetests, der skal køres automatisk.
