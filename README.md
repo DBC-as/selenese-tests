@@ -1,5 +1,3 @@
-TODO: add link to selenese-description
-
 # Selenium tests for DBC websites
 
 Dette repositorie indeholder grænsefladetests, der skal køres automatisk.
@@ -27,6 +25,8 @@ Vi har nogle udvidelser til selenese når det køre automatisk:
 - Særlige values: `USER_LOGIN`, `USER_PASSWORD`, `ADMIN_LOGIN`, `ADMIN_PASSWORD` vil erstattes af brugernavne/passwords. NB: skriv _ikke_ brugernavne/kodeord etc. i selenese-filerne
 - Base url ignoreres, men i stedet afhænger dette af tags for suiten
 - Særlig test med navn `beforeEach`/`afterEach` køres før/efter hver eneste af de øvrige tests. Dette kan bruges til login, eller anden opsætning.
+
+Dokumentation af selenese-formatet (hhl spurgte efter dette): http://release.seleniumhq.org/selenium-core/1.0/reference.html
 
 # Intro/noter til præsentation 12. januar 2012
 
