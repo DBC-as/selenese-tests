@@ -36,6 +36,11 @@
 	<td>link=Luk vinduet</td>
 	<td></td>
 </tr>
+<tr>
+	<td>restartBrowser</td>
+	<td></td>
+	<td></td>
+</tr>
 </tbody></table>
 </body>
 </html>
