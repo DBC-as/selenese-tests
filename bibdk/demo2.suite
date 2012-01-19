@@ -8,9 +8,8 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
-<tr><td><a href="search-error-too-many-hits">search-error-too-many-hits</a></td></tr>
-<tr><td><a href="emne-graviditet">emne-graviditet</a></td></tr>
-<tr><td><a href="petersen-quirky">petersen-quirky</a></td></tr>
+<tr><td><a href="sitemap">sitemap</a></td></tr>
+<tr><td><a href="vejviser">vejviser</a></td></tr>
 </tbody></table>
 </body>
 </html>
