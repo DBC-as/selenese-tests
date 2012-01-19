@@ -15,6 +15,8 @@ Vi har nogle udvidelser til selenese når det køre automatisk:
 - Base url ignoreres, men i stedet afhænger dette af tags for suiten
 - Særlig test med navn `beforeEach`/`afterEach` køres før/efter hver eneste af de øvrige tests. Dette kan bruges til login, eller anden opsætning.
 
+Dokumentation af selenese-formatet (hhl spurgte efter dette): http://release.seleniumhq.org/selenium-core/1.0/reference.html
+
 # Intro/noter til præsentation 12. januar 2012
 
 - Overblik/intro til automatisk grænsefladetest
