@@ -32,6 +32,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>click</td>
+	<td>id=6d1fefee15c2cd57fe7c7537f912b18230f6116e</td>
+	<td></td>
+</tr>
+<tr>
 	<td>verifyText</td>
 	<td>css=div.adress-label.w25 &gt; b</td>
 	<td>Brønshøj Bibliotek</td>
