@@ -1,16 +1,12 @@
-# Vigtigt
+# Vigtigt: til _internt_ brug.
 
-Dette er testcases for *intern* brug på DBC ved test af Artesis og den næste udgave af bibliotek.dk.
-De er ikke supportede udadtil, og forventes ikke at bruges i andre sammenhænge.
+Disse testcases er lavet til brug _internt_ på DBC i forbindelse med vores udvikling af Artesis og ny version af bibliotek.dk.
+De forventes ikke at blive brugt i sammenhænge udenfor DBC, og vi yder ingen support på dem.
 
-# Important
+# Important: for _internal_ use
 
-These test cases are for *internal* use at DBC for testing Artesis and the next version of bibliotek.dk.
-
-THIS SOFTWARE IS PROVIDED AS IS AND WITHOUT ANY EXPRESS OR
-IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-
+These test cases are for _internal_ use at DBC for testing Artesis and the next version of bibliotek.dk.
+They are not expected to be used outside of DBC, and are not supported in any way.
 
 
 
