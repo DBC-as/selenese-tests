@@ -1,3 +1,21 @@
+# Vigtigt
+
+Dette er testcases for *intern* brug på DBC ved test af Artesis og den næste udgave af bibliotek.dk.
+De er ikke supportede udadtil, og forventes ikke at bruges i andre sammenhænge.
+
+# Important
+
+These test cases are for *internal* use at DBC for testing Artesis and the next version of bibliotek.dk.
+
+THIS SOFTWARE IS PROVIDED AS IS AND WITHOUT ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+
+
+
+
+----
 # Selenium tests for DBC websites
 
 Dette repositorie indeholder grænsefladetests, der skal køres automatisk.
