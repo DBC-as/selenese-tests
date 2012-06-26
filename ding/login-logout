@@ -41,7 +41,11 @@
 	<td>link=Log ud</td>
 	<td></td>
 </tr>
-
+<tr>
+	<td>verifyTextPresent</td>
+	<td>exact:Log ind: CPR-nr. * <br /> Kode *</td>
+	<td></td>
+</tr>
 </tbody></table>
 </body>
 </html>
