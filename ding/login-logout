@@ -46,6 +46,11 @@
 	<td>link=Log ud</td>
 	<td></td>
 </tr>
+<tr>
+	<td>waitForTextPresent</td>
+	<td>Log ind:</td>
+	<td></td>
+</tr>
 </tbody></table>
 </body>
 </html>
