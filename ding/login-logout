@@ -15,11 +15,16 @@
       </thead>
       <tbody>
         <tr>
+          <td>setTimeout</td>
+          <td>60000</td>
+          <td></td>
+        </tr>
+        <tr>
           <td>open</td>
           <td>/</td>
           <td></td>
         </tr>
-             <tr>
+        <tr>
           <td>type</td>
           <td>id=edit-name</td>
           <td>USER_LOGIN</td>
