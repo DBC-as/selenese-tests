@@ -8,8 +8,10 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
-<tr><td><a href="nulhit_mdy.html">nulhit_mdy</a></td></tr>
-<tr><td><a href="filmalder_mdy.html">filmalder_mdy</a></td></tr>
+<tr><td><a href="netpunkt_kurv_vis.html">netpunkt_kurv_vis</a></td></tr>
+<tr><td><a href="netpunkt_kurv_udskriv.html">netpunkt_kurv_udskriv</a></td></tr>
+<tr><td><a href="netpunkt_kurv_overfør.html">netpunkt_kurv_overfør</a></td></tr>
+<tr><td><a href="netpunkt_kurv_mail.html">netpunkt_kurv_mail</a></td></tr>
 </tbody></table>
 </body>
 </html>

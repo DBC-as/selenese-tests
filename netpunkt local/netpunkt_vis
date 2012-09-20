@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="netpunkt_vis_viderepaanettet.html">netpunkt_vis_viderepaanettet</a></td></tr>
+<tr><td><a href="netpunkt_vis_soeglitteraturom.html">netpunkt_vis_soeglitteraturom</a></td></tr>
+<tr><td><a href="netpunkt_vis_anmeldelser.html">netpunkt_vis_anmeldelser</a></td></tr>
+<tr><td><a href="netpunkt_vis_links_materialevurdering.html">netpunkt_vis_links_materialevurdering</a></td></tr>
+<tr><td><a href="netpunkt_vis_infomediaartikel.html">netpunkt_vis_infomediaartikel</a></td></tr>
+<tr><td><a href="netpunkt_vis_visformater.html">netpunkt_vis_visformater</a></td></tr>
+<tr><td><a href="netpunkt_vis_infomedianmeldelse.html">netpunkt_vis_infomedianmeldelse</a></td></tr>
+<tr><td><a href="netpunkt_vis">netpunkt_vis</a></td></tr>
+</tbody></table>
+</body>
+</html>

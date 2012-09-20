@@ -8,8 +8,8 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
-<tr><td><a href="bibdk_login_statustxt.html">bibdk_login_statustxt</a></td></tr>
-<tr><td><a href="bibdk_login_logudstatustxt.html">bibdk_login_logudstatustxt</a></td></tr>
+<tr><td><a href="infomediaanm_tom.html">infomediaanm_tom</a></td></tr>
+<tr><td><a href="logud_fra_loginudfane.html">logud_fra_loginudfane</a></td></tr>
 </tbody></table>
 </body>
 </html>

@@ -4,36 +4,46 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://bibliotek.dk" />
-<title>bibdk_login_logind</title>
+<title>New Test</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">bibdk_login_logind</td></tr>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
-	<td>http://bib.ding.dbc.dk/da</td>
+	<td>http://pacaya.dbc.dk/netpunkt.dk.5.0/vis.php?&amp;origin=kurv&amp;showbasket=1&amp;format=vrk_standard</td>
 	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=edit-name</td>
-	<td>mdy@dbc.dk</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=edit-pass</td>
-	<td>eee444</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>id=edit-submit--2</td>
+	<td>link=Kurv</td>
 	<td></td>
 </tr>
 <tr>
-	<td>verifyElementPresent</td>
-	<td>link=My account</td>
+	<td>click</td>
+	<td>id=c_1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=format_print</td>
+	<td>label=Detaljeret</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name=''])[6]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td>kurv</td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=kurv</td>
 	<td></td>
 </tr>
 </tbody></table>

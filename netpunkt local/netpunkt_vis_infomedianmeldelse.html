@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://bibliotek.dk" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>http://pacaya.dbc.dk/netpunkt.dk.5.0/vis.php?origin=kommando&amp;target%5B%5D=Danbib&amp;format=a&amp;step=10&amp;vis_igen=Vis+igen&amp;vis_set_no=7&amp;term1=fo%3Djungersen+og+forsvinder&amp;sort=aar&amp;mat_text=&amp;mat_ccl=&amp;term_mat%5B%5D=&amp;field_sprog=&amp;term_sprog%5B%5D=&amp;field_aar=year_eq&amp;term_aar=&amp;delbase=danbibv4&amp;field_dlb=lok&amp;term_dlb%5B%5D=&amp;field_art=kat&amp;term_art=</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Ny søgning</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ccl</td>
+	<td>fo=jungersen og forsvinder</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=søg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=hLlink_1_0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Få henvisning til anmeldelser</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Link til Infomedia</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[contains(text(),'Link til Infomedia')])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td>popup</td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=popup</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=popup</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

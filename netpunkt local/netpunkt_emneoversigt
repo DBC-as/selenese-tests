@@ -8,10 +8,10 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
-<tr><td><a href="login_test_mdy_2.html">login_test_mdy_2</a></td></tr>
-<tr><td><a href="infomedia_mdy_test.html">infomedia_mdy_test</a></td></tr>
-<tr><td><a href="boern_boeger_mdy.html">boern_boeger_mdy</a></td></tr>
-<tr><td><a href="santana_mdy.html">santana_mdy</a></td></tr>
+<tr><td><a href="netpunkt_emneoversigt_søgning1.html">netpunkt_emneoversigt_søgning1</a></td></tr>
+<tr><td><a href="netpunkt_emneoversigt_søgning2.html">netpunkt_emneoversigt_søgning2</a></td></tr>
+<tr><td><a href="netpunkt_emneoversigt_net.html">netpunkt_emneoversigt_net</a></td></tr>
+<tr><td><a href="netpunkt_emneoversigt_antalhits.html">netpunkt_emneoversigt_antalhits</a></td></tr>
 </tbody></table>
 </body>
 </html>
