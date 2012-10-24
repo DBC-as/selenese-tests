@@ -4,31 +4,36 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://bib.ding.dbc.dk/" />
-<title>bibdk_forside_avanceret</title>
+<title>bibdk_forside_vejviser</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">bibdk_forside_avanceret</td></tr>
+<tr><td rowspan="1" colspan="3">bibdk_forside_vejviser</td></tr>
 </thead><tbody>
 <tr>
-	<td>waitForTextPresent</td>
-	<td>▼Flere søgemuligheder</td>
+	<td>open</td>
+	<td>/</td>
 	<td></td>
 </tr>
 <tr>
 	<td>verifyTextPresent</td>
-	<td>▼Flere søgemuligheder</td>
+	<td>Find bibliotek</td>
 	<td></td>
 </tr>
 <tr>
-	<td>waitForText</td>
-	<td>link=▼Flere søgemuligheder</td>
-	<td>▼Flere søgemuligheder</td>
+	<td>click</td>
+	<td>link=Find bibliotek</td>
+	<td></td>
 </tr>
 <tr>
-	<td>assertElementPresent</td>
-	<td>//div[@id='search-advanced-toggle']/a/span</td>
+	<td>type</td>
+	<td>id=edit-openagency-query</td>
+	<td>2500</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-openagency-submit</td>
 	<td></td>
 </tr>
 
