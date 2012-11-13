@@ -18,32 +18,42 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>id=create-new-account</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyElementPresent</td>
-	<td>id=edit-mail</td>
+	<td>link=My page</td>
 	<td></td>
 </tr>
 <tr>
 	<td>verifyTextPresent</td>
-	<td>exact:Username</td>
+	<td>Opret ny bruger</td>
 	<td></td>
 </tr>
 <tr>
-	<td>selectWindow</td>
-	<td>null</td>
+	<td>clickAndWait</td>
+	<td>link=Opret ny bruger</td>
 	<td></td>
 </tr>
 <tr>
-	<td>verifyElementPresent</td>
+	<td>verifyTextPresent</td>
+	<td>exact:Brugernavn *</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-mail</td>
+	<td>xxx@dbc.dk</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
 	<td>id=bibdkcaptcha-controls-refreshbtn</td>
 	<td></td>
 </tr>
 <tr>
-	<td>verifyElementPresent</td>
+	<td>assertElementPresent</td>
 	<td>id=bibdkcaptcha-controls-audiobtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
 	<td></td>
 </tr>
 </tbody></table>
