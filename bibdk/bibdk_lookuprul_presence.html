@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://bib.ding.dbc.dk/" />
+<title>Test for presence of LookUpUrl</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Test for presence of LookUpUrl</td></tr>
+</thead><tbody>
+<!--Ensure that the lookUpUrl is present-->
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;Bibliotek.dk - loan of books, music, and films&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-search-block-form--2</td>
+	<td>100 ideer til håndarbejde</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.toggle-text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>link=Bestil Bog</td>
+	<td>Bestil Bog</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Bestil Bog</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td>PopUpWindow</td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=PopUpWindow</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-anyfield</td>
+	<td>herning</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=branch-765700</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>link=link_to_local_library_lookup_url</td>
+	<td>link_to_local_library_lookup_url</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=a[href=&quot;/da/reservations/catalogue_url/0&quot;]</td>
+	<td>/da/reservations/catalogue_url/0</td>
+</tr>
+</tbody></table>
+</body>
+</html>
