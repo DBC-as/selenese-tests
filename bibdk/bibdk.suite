@@ -8,6 +8,7 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Bibdk Test Suite</b></td></tr>
+<tr><td><a href="bibdk_login_redirect">bibdk_login_redirect</a></td></tr>
 <tr><td><a href="lookupurl">bibdk_lookuprul_presence</a></td></tr>
 <tr><td><a href="searchflow">bibdk_searchflow</a></td></tr>
 </tbody></table>
