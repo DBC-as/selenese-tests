@@ -8,10 +8,17 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
+<<<<<<< HEAD:CONTENT/SUITE/TopMenu
 <tr><td><a href="../TEST-CASES/Open Content.html">Open Content</a></td></tr>
 <tr><td><a href="../TEST-CASES/TopMenuHjaelp.html">TopMenuHjaelp</a></td></tr>
 <tr><td><a href="../TEST-CASES/Open Content.html">Open Content</a></td></tr>
 <tr><td><a href="../TEST-CASES/TopMenuOmBbibliotekDk.html">TopMenuOmBbibliotekDk</a></td></tr>
+=======
+<tr><td><a href="../TEST-CASE/Open.html">Open</a></td></tr>
+<tr><td><a href="../TEST-CASE/TopMenuHjaelp.html">TopMenuHjaelp</a></td></tr>
+<tr><td><a href="../TEST-CASE/Open.html">Open</a></td></tr>
+<tr><td><a href="../TEST-CASE/TopMenuOmBibliotekDk.html">TopMenuOmBibliotekDk</a></td></tr>
+>>>>>>> 314984179517c012734b505e6dc5dfa91ad9b93b:CONTENT/SUITE/TopMenu.suite
 </tbody></table>
 </body>
 </html>
