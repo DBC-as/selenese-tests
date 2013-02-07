@@ -3,25 +3,45 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://dringo.dbc.dk/" />
-<title>Open Content</title>
+<link rel="selenium.base" href="http://netpunkt.dk/" />
+<title>netpunkt_sogning_hund</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">Open Content</td></tr>
+<tr><td rowspan="1" colspan="3">netpunkt_sogning_hund</td></tr>
 </thead><tbody>
-<!--Start browseren op-->
 <tr>
 	<td>open</td>
-	<td>/content/</td>
+	<td>/kommando.php?setTarget=Danbib</td>
 	<td></td>
 </tr>
 <tr>
-	<td>verifyText</td>
-	<td>css=img[alt=&quot;Bibliotek.dk - loan of books, music, and films&quot;]</td>
+	<td>type</td>
+	<td>id=ccl</td>
+	<td>hundepleje</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Se mere</td>
 	<td></td>
 </tr>
+<tr>
+	<td>click</td>
+	<td>id=cid_1_1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=format</td>
+	<td>label=danMARC2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=vis_set</td>
+	<td></td>
+</tr>
+
 </tbody></table>
 </body>
 </html>

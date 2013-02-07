@@ -3,75 +3,70 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://dringo.dbc.dk/" />
-<title>TopMenuOmBbibliotekDk</title>
+<link rel="selenium.base" href="http://bib.ding.dbc.dk/" />
+<title>bibdk_sogesider_film_mat</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">TopMenuOmBbibliotekDk</td></tr>
+<tr><td rowspan="1" colspan="3">bibdk_sogesider_film_mat</td></tr>
 </thead><tbody>
-<!--Afproev Om bibliotek.dk-->
 <tr>
 	<td>open</td>
-	<td>/content/</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Film</td>
 	<td></td>
 </tr>
 <tr>
 	<td>click</td>
-	<td>link=Om bibliotek.dk</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForPopUp</td>
-	<td>PopUpWindow</td>
-	<td>30000</td>
-</tr>
-<tr>
-	<td>waitForPopUp</td>
-	<td>PopUpWindow</td>
-	<td>30000</td>
-</tr>
-<tr>
-	<td>waitForPopUp</td>
-	<td>PopUpWindow</td>
-	<td>30000</td>
-</tr>
-<tr>
-	<td>selectWindow</td>
-	<td>name=PopUpWindow</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyTextPresent</td>
-	<td>Søg i hjælp</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyTextPresent</td>
-	<td>Om bibliotek.dk</td>
+	<td>link=Flere søgemuligheder</td>
 	<td></td>
 </tr>
 <tr>
 	<td>click</td>
-	<td>link=Indhold</td>
+	<td>link=Show Udvidet søgning</td>
 	<td></td>
 </tr>
 <tr>
-	<td>verifyText</td>
-	<td>link=Indhold i bibliotek.dk</td>
-	<td>Indhold i bibliotek.dk</td>
-</tr>
-<tr>
-	<td>close</td>
-	<td></td>
+	<td>verifyTextPresent</td>
+	<td>Alle typer</td>
 	<td></td>
 </tr>
 <tr>
-	<td>restartBrowser</td>
-	<td></td>
+	<td>verifyTextPresent</td>
+	<td>dvd</td>
 	<td></td>
 </tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>film på nettet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>blu-ray</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>vhs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Flere søgemuligheder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;Bibliotek.dk - loan of books, music, and films&quot;]</td>
+	<td></td>
+</tr>
+
 </tbody></table>
 </body>
 </html>
