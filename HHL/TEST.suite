@@ -9,7 +9,6 @@
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
 <tr><td><a href="openCONTENT.html">openCONTENT</a></td></tr>
-<tr><td><a href="setSpeed.html">setSpeed</a></td></tr>
 <tr><td><a href="xx.html">xx</a></td></tr>
 <tr><td><a href="restartBrowser.html">restartBrowser</a></td></tr>
 </tbody></table>
