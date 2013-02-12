@@ -10,6 +10,7 @@
 <tr><td><b>Test Suite</b></td></tr>
 <tr><td><a href="openCONTENT.html">openCONTENT</a></td></tr>
 <tr><td><a href="verifyCursor.html">verifyCursor</a></td></tr>
+<tr><td><a href="verifyCursorError.html">verifyCursorError</a></td></tr>
 <tr><td><a href="topMenuHjaelp.html">topMenuHjaelp</a></td></tr>
 <tr><td><a href="restartBrowser.html">restartBrowser</a></td></tr>
 </tbody></table>
