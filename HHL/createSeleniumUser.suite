@@ -10,7 +10,11 @@
 <tr><td><b>Test Suite</b></td></tr>
 <tr><td><a href="openCONTENT.html">openCONTENT</a></td></tr>
 <tr><td><a href="disableCAPTCHA.html">disableCAPTCHA</a></td></tr>
+<tr><td><a href="NewUserPart1.html">NewUserPart1</a></td></tr>
+<tr><td><a href="activate.html">activate</a></td></tr>
 <tr><td><a href="enableCAPTCHA.html">enableCAPTCHA</a></td></tr>
+<tr><td><a href="NewUserPart2.html">NewUserPart2</a></td></tr>
+<tr><td><a href="deleteUser.html">deleteUser</a></td></tr>
 </tbody></table>
 </body>
 </html>
