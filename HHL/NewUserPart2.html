@@ -4,16 +4,21 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://dringo.dbc.dk/" />
-<title>enableCAPTCHA</title>
+<title>NewUserPart2</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">enableCAPTCHA</td></tr>
+<tr><td rowspan="1" colspan="3">NewUserPart2</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
 	<td>${baseurl}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Information | bibliotek.dk</td>
 	<td></td>
 </tr>
 <tr>
@@ -29,12 +34,12 @@
 <tr>
 	<td>type</td>
 	<td>id=edit-name</td>
-	<td>${adminuser}</td>
+	<td>${userid1}</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>id=edit-pass</td>
-	<td>${adminpass}</td>
+	<td>${userpass1}</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -44,31 +49,6 @@
 <tr>
 	<td>assertTitle</td>
 	<td>Information | bibliotek.dk</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=toolbar-link-admin-config</td>
-	<td></td>
-</tr>
-<tr>
-	<td>open</td>
-	<td>${baseurl}/da/admin/config/people/captcha</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>//fieldset[@id='edit-captcha-form-protection']/div/table[2]/tbody/tr[7]/td</td>
-	<td>user_register_form</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>id=edit-captcha-form-id-overview-captcha-captcha-points-user-register-form-captcha-type</td>
-	<td>label=[default challenge type]</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=edit-submit</td>
 	<td></td>
 </tr>
 <tr>

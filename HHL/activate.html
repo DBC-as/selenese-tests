@@ -4,37 +4,32 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://dringo.dbc.dk/" />
-<title>enableCAPTCHA</title>
+<title>activate</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">enableCAPTCHA</td></tr>
+<tr><td rowspan="1" colspan="3">activate</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
-	<td>${baseurl}</td>
+	<td>http://guesstimate.dbc.dk/~hhl/BibliotekDkSelenium/getActivationLink.php?mail_to=${userid1}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForTextPresent</td>
+	<td>This page is a part of the automated testing of the http://bibliotek.dk home page</td>
 	<td></td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>link=Log ind</td>
+	<td>name=activate</td>
 	<td></td>
 </tr>
 <tr>
-	<td>assertTitle</td>
-	<td>Bibliotek.dk login | bibliotek.dk</td>
+	<td>waitForTextPresent</td>
+	<td>Klik på Log ind for at logge ind på bibliotek.dk og vælge et kodeord.</td>
 	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=edit-name</td>
-	<td>${adminuser}</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=edit-pass</td>
-	<td>${adminpass}</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -42,33 +37,28 @@
 	<td></td>
 </tr>
 <tr>
-	<td>assertTitle</td>
-	<td>Information | bibliotek.dk</td>
+	<td>waitForTextPresent</td>
+	<td>Du har nu brugt dit en-gangs-login og kan ikke længere logge ind med dette link. Opret et nyt kodeord her.</td>
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>id=toolbar-link-admin-config</td>
-	<td></td>
+	<td>type</td>
+	<td>id=edit-pass-pass1</td>
+	<td>${userpass1}</td>
 </tr>
 <tr>
-	<td>open</td>
-	<td>${baseurl}/da/admin/config/people/captcha</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>//fieldset[@id='edit-captcha-form-protection']/div/table[2]/tbody/tr[7]/td</td>
-	<td>user_register_form</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>id=edit-captcha-form-id-overview-captcha-captcha-points-user-register-form-captcha-type</td>
-	<td>label=[default challenge type]</td>
+	<td>type</td>
+	<td>id=edit-pass-pass2</td>
+	<td>${userpass1}</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
 	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Du har nu brugt dit en-gangs-login og kan ikke længere logge ind med dette link. Opret et nyt kodeord her.</td>
 	<td></td>
 </tr>
 <tr>

@@ -12,6 +12,11 @@
 <tr><td rowspan="1" colspan="3">disableCAPTCHA.2</td></tr>
 </thead><tbody>
 <tr>
+	<td>open</td>
+	<td>${baseurl}</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
 	<td>link=Log ind</td>
 	<td></td>
@@ -24,12 +29,12 @@
 <tr>
 	<td>type</td>
 	<td>id=edit-name</td>
-	<td>admin</td>
+	<td>${adminuser}</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>id=edit-pass</td>
-	<td>content</td>
+	<td>${adminpass}</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -48,7 +53,7 @@
 </tr>
 <tr>
 	<td>open</td>
-	<td>http://dringo.dbc.dk/content/da/admin/config/people/captcha</td>
+	<td>${baseurl}/da/admin/config/people/captcha</td>
 	<td></td>
 </tr>
 <tr>
