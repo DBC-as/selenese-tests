@@ -13,15 +13,11 @@
 </thead><tbody>
 <!--Store the URL to use as baseurl through the test-->
 <tr>
-	<td>storeExpression</td>
-	<td>http://upg.artesis.dbc.dk/</td>
+	<td>storeLocation</td>
+	<td></td>
 	<td>siteurl</td>
 </tr>
-<tr>
-	<td>storeExpression</td>
-	<td></td>
-	<td>subdomain</td>
-</tr>
+<!--indsæt: command=storeExpression target=http://upg.artesis.dbc.dk/ value=siteurl hvis testen ikke køres via https://is.dbc.dk-->
 <tr>
 	<td>storeExpression</td>
 	<td>en/</td>
@@ -53,29 +49,14 @@
 	<td>agency</td>
 </tr>
 <tr>
-	<td>echo</td>
-	<td>${agency}</td>
-	<td></td>
-</tr>
-<tr>
 	<td>storeEval</td>
-	<td>storedVars['siteurl']+storedVars['subdomain']+storedVars['language_en']</td>
+	<td>storedVars['siteurl']+storedVars['language_en']</td>
 	<td>baseurl</td>
-</tr>
-<tr>
-	<td>echo</td>
-	<td>${baseurl}</td>
-	<td></td>
 </tr>
 <tr>
 	<td>storeEval</td>
 	<td>(storedVars['baseurl']+storedVars['search']+'*%3D*')</td>
 	<td>search_all</td>
-</tr>
-<tr>
-	<td>echo</td>
-	<td>${search_all}</td>
-	<td></td>
 </tr>
 </tbody></table>
 </body>
