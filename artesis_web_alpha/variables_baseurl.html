@@ -13,44 +13,49 @@
 </thead><tbody>
 <!--Store the URL to use as baseurl through the test-->
 <tr>
-	<td>store</td>
+	<td>storeExpression</td>
 	<td>http://upg.artesis.dbc.dk/</td>
 	<td>siteurl</td>
 </tr>
 <tr>
-	<td>store</td>
+	<td>storeExpression</td>
 	<td></td>
 	<td>subdomain</td>
 </tr>
 <tr>
-	<td>store</td>
+	<td>storeExpression</td>
 	<td>en/</td>
 	<td>language_en</td>
 </tr>
 <tr>
-	<td>store</td>
+	<td>storeExpression</td>
 	<td>da/</td>
 	<td>language_da</td>
 </tr>
 <tr>
-	<td>store</td>
+	<td>storeExpression</td>
 	<td>search/ting/</td>
 	<td>search</td>
 </tr>
 <tr>
-	<td>store</td>
+	<td>storeExpression</td>
 	<td>ting/collection/</td>
 	<td>search_collection</td>
 </tr>
 <tr>
-	<td>store</td>
+	<td>storeExpression</td>
 	<td>ting/object/</td>
 	<td>search_object</td>
 </tr>
 <tr>
-	<td>store</td>
+	<td>storeExpression</td>
 	<td>100200</td>
 	<td>agency</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${agency}</td>
+	<td></td>
 </tr>
 <tr>
 	<td>storeEval</td>
@@ -58,9 +63,19 @@
 	<td>baseurl</td>
 </tr>
 <tr>
+	<td>echo</td>
+	<td>${baseurl}</td>
+	<td></td>
+</tr>
+<tr>
 	<td>storeEval</td>
 	<td>(storedVars['baseurl']+storedVars['search']+'*%3D*')</td>
 	<td>search_all</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${search_all}</td>
+	<td></td>
 </tr>
 </tbody></table>
 </body>
