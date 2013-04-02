@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://demo.artesis150.easyting.dk/en" />
+<link rel="selenium.base" href="http://upg.artesis.dbc.dk/" />
 <title>advancedSearch</title>
 </head>
 <body>
@@ -20,6 +20,11 @@
 <tr>
 	<td>click</td>
 	<td>css=.extendsearch-advanced a.fieldset-title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>css=fieldset.extendsearch-advanced &gt; div.fieldset-wrapper</td>
 	<td></td>
 </tr>
 <tr>
@@ -74,11 +79,6 @@
 	<td></td>
 </tr>
 <tr>
-	<td>verifyElementPresent</td>
-	<td>css=ol.search-results</td>
-	<td></td>
-</tr>
-<tr>
 	<td>verifyText</td>
 	<td>link=${opensearch_title1}</td>
 	<td>${opensearch_title1}</td>
@@ -112,11 +112,6 @@
 <tr>
 	<td>verifyElementPresent</td>
 	<td>css=ol.search-results</td>
-	<td></td>
-</tr>
-<tr>
-	<td>mouseDownAt</td>
-	<td>css=fieldset.extendsearch-advanced a.fieldset-title</td>
 	<td></td>
 </tr>
 <tr>

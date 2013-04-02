@@ -8,7 +8,10 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
-<tr><td><a href="../TEST-CASES/TopMenuOmBbibliotekDk.html">TopMenuOmBbibliotekDk</a></td></tr>
+<tr><td><a href="openCONTENT.html">openCONTENT</a></td></tr>
+<tr><td><a href="loginSelenium.html">loginSelenium</a></td></tr>
+<tr><td><a href="findFarvorit.html">findFarvorit</a></td></tr>
+<tr><td><a href="restartBrowser.html">restartBrowser</a></td></tr>
 </tbody></table>
 </body>
 </html>

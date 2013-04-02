@@ -4,66 +4,46 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://dringo.dbc.dk/" />
-<title>TopMenuHelp</title>
+<title>loginSelenium</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">TopMenuHelp</td></tr>
+<tr><td rowspan="1" colspan="3">loginSelenium</td></tr>
 </thead><tbody>
 <tr>
-	<td>open</td>
-	<td>http://dringo.dbc.dk/content/da/</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>css=img[alt=&quot;Bibliotek.dk - loan of books, music, and films&quot;]</td>
-	<td></td>
-</tr>
-<tr>
 	<td>assertTitle</td>
 	<td>Information | bibliotek.dk</td>
 	<td></td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>link=English</td>
+	<td>link=Log ind</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Bibliotek.dk login | bibliotek.dk</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-name</td>
+	<td>dbcselenium@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-pass</td>
+	<td>jukilo90</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
 	<td></td>
 </tr>
 <tr>
 	<td>assertTitle</td>
 	<td>Information | bibliotek.dk</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>link=Help</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForPopUp</td>
-	<td>PopUpWindow</td>
-	<td>30000</td>
-</tr>
-<tr>
-	<td>selectWindow</td>
-	<td>name=PopUpWindow</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyTextPresent</td>
-	<td>Search help texts</td>
-	<td></td>
-</tr>
-<tr>
-	<td>close</td>
-	<td></td>
-	<td></td>
-</tr>
-<tr>
-	<td>restartBrowser</td>
-	<td></td>
 	<td></td>
 </tr>
 </tbody></table>

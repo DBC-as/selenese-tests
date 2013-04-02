@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://demo.artesis150.easyting.dk/en" />
+<link rel="selenium.base" href="http://upg.artesis.dbc.dk/" />
 <title>searchOpenScan</title>
 </head>
 <body>
@@ -47,7 +47,6 @@
 	<td>css=ol.search-results</td>
 	<td></td>
 </tr>
-<!--Autocomplete med Enter-knap-->
 <tr>
 	<td>open</td>
 	<td>${baseurl}</td>
@@ -74,9 +73,14 @@
 	<td></td>
 </tr>
 <tr>
-	<td>keyPressAndWait</td>
-	<td>id=edit-submit</td>
-	<td>13</td>
+	<td>keyPress</td>
+	<td>id=edit-search-block-form--2</td>
+	<td>\13</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=ol.search-results</td>
+	<td></td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>

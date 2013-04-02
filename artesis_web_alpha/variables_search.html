@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://test.artesis.dbc.dk/romartesis170/" />
+<link rel="selenium.base" href="http://upg.artesis.dbc.dk/" />
 <title>variables_search</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
 </tr>
 <!--23195151 = Harry potter og de vises sten-->
 <tr>
-	<td>store</td>
+	<td>storeExpression</td>
 	<td>23195151</td>
 	<td>faustnumber</td>
 </tr>
@@ -40,13 +40,8 @@
 </tr>
 <tr>
 	<td>storeText</td>
-	<td>css=h3.title a</td>
+	<td>css=div.field-items h2 a</td>
 	<td>opensearch_title1</td>
-</tr>
-<tr>
-	<td>echo</td>
-	<td>${opensearch_title1}</td>
-	<td></td>
 </tr>
 <!--title toLowerCase variable to test openscan where all strings are lowercase-->
 <tr>
@@ -54,7 +49,7 @@
 	<td>storedVars['opensearch_title1'].toLowerCase()</td>
 	<td>opensearch_title1_lc</td>
 </tr>
-<!--Store a creator variable for later use-->
+<!--storeExpression a creator variable for later use-->
 <tr>
 	<td>open</td>
 	<td>${baseurl}</td>
@@ -80,12 +75,7 @@
 	<td>css=a.author</td>
 	<td>opensearch_creator1</td>
 </tr>
-<tr>
-	<td>echo</td>
-	<td>${opensearch_creator1}</td>
-	<td></td>
-</tr>
-<!--Store a subject variable for later use-->
+<!--storeExpression a subject variable for later use-->
 <tr>
 	<td>open</td>
 	<td>${baseurl}</td>
@@ -110,11 +100,6 @@
 	<td>storeText</td>
 	<td>css=a.subject</td>
 	<td>opensearch_subject1</td>
-</tr>
-<tr>
-	<td>echo</td>
-	<td>${opensearch_subject1}</td>
-	<td></td>
 </tr>
 </tbody></table>
 </body>

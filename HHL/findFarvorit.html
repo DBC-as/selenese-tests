@@ -4,22 +4,36 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://dringo.dbc.dk/" />
-<title>Open Content</title>
+<title>findFarvorit</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">Open Content</td></tr>
+<tr><td rowspan="1" colspan="3">findFarvorit</td></tr>
 </thead><tbody>
-<!--Start browseren op-->
 <tr>
-	<td>open</td>
-	<td>http://dringo.dbc.dk/content/</td>
+	<td>click</td>
+	<td>id=edit-openagency-query</td>
 	<td></td>
 </tr>
 <tr>
-	<td>verifyText</td>
-	<td>css=img[alt=&quot;Bibliotek.dk - loan of books, music, and films&quot;]</td>
+	<td>type</td>
+	<td>id=edit-openagency-query</td>
+	<td>8600</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-openagency-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Vejviser | bibliotek.dk</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseDown</td>
+	<td>edit-favourite-button</td>
 	<td></td>
 </tr>
 </tbody></table>

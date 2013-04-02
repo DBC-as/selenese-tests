@@ -8,8 +8,9 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
-<tr><td><a href="../TEST-CASES/TopMenuHelp.html">TopMenuHelp</a></td></tr>
-<tr><td><a href="../TEST-CASES/AboutBibliotekDk.html">AboutBibliotekDk</a></td></tr>
+<tr><td><a href="setVars.html">setVars</a></td></tr>
+<tr><td><a href="Sortering.html">Sortering</a></td></tr>
+<tr><td><a href="restartBrowser.html">restartBrowser</a></td></tr>
 </tbody></table>
 </body>
 </html>
