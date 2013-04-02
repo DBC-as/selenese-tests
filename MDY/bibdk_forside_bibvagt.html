@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://bib.ding.dbc.dk/" />
+<title>bibdk_bibvagt</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">bibdk_bibvagt</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Spørg Biblioteksvagten</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td>PopUpWindow</td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td>PopUpWindow</td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=PopUpWindow</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-questiontext</td>
+	<td>Hvordan genkender jeg en kodriver?</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-purposeid-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-purposeid-2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-customername</td>
+	<td>Marianne</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-customerpostalcode</td>
+	<td>2500</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-customeremail</td>
+	<td>mdy@dbc.dk</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-customerphone</td>
+	<td>40355427</td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td></td>
+	<td>send</td>
+</tr>
+<tr>
+	<td>close</td>
+	<td></td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
