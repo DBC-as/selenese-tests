@@ -12,35 +12,211 @@
 <tr><td rowspan="1" colspan="3">bibdk_sogesider_spil_alder</td></tr>
 </thead><tbody>
 <tr>
+	<td>open</td>
+	<td>http://dringo.dbc.dk/content/da/bibdk_frontpage/spil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Information | bibliotek.dk</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
 	<td>link=Spil</td>
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>link=Flere søgemuligheder</td>
+	<td>assertTitle</td>
+	<td>Information | bibliotek.dk</td>
 	<td></td>
 </tr>
 <tr>
-	<td>verifyTextPresent</td>
-	<td>Medierådets aldersanbefalinger</td>
-	<td></td>
+	<td>select</td>
+	<td>id=edit-3c0f6ff4-63f2-8a54-4500-6198904477ba</td>
+	<td>label=pc-spil</td>
 </tr>
 <tr>
-	<td>verifyTextPresent</td>
-	<td>exact:Biblioteket anbefaler<br /> ?<br /> spil, bibliotekets aldersanbefaling Biblioteket anbefalerFra 2 årFra 3 årFra 4 årFra 5 årFra 6 årFra 7 årFra 8 årFra 9 årFra 10 årFra 11 årFra 12 årFra 13 årFra 14 årFra 15 år</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>link=Flere søgemuligheder</td>
-	<td></td>
+	<td>type</td>
+	<td>id=edit-search-block-form--2</td>
+	<td>spil</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>css=img[alt=&quot;Bibliotek.dk - loan of books, music, and films&quot;]</td>
+	<td>id=edit-submit</td>
 	<td></td>
 </tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Søg | bibliotek.dk</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=edit-search-block-form--2</td>
+	<td>spil AND ((term.type=pc-spil) AND term.workType=game)</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Spil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Information | bibliotek.dk</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-3c0f6ff4-63f2-8a54-4500-6198904477ba</td>
+	<td>label=xbox</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-3389bb76-ad3a-5c94-81de-2bfc154f8298</td>
+	<td>label=Fra 2 år</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-search-block-form--2</td>
+	<td>spil</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Søg | bibliotek.dk</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=edit-search-block-form--2</td>
+	<td>spil AND ((term.type=xbox) AND (term.audience=(Fra 2 år)) AND term.workType=game)</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Spil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Information | bibliotek.dk</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-ceae1f55-323f-9774-250b-4b39f9b0bf91</td>
+	<td>label=Fra 7 år</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-search-block-form--2</td>
+	<td>spil</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Søg | bibliotek.dk</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>id=edit-search-block-form--2</td>
+	<td>spil AND ((term.audience=(Fra 7 år)) AND term.workType=game)</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Spil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Information | bibliotek.dk</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Alle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>adventurespil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>hovedbrudsspil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>minispil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>racerspil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>shooters</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>sportsspil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>synge- og dansespil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>actionspil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>eventyrspil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>leg og lær</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>platformspil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>rollespil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>simulationspil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>strategispil</td>
+	<td></td>
+</tr>
+
 </tbody></table>
 </body>
 </html>

@@ -8,7 +8,7 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
-<tr><td><a href="openCONTENT.html">openCONTENT</a></td></tr>
+<tr><td><a href="setVars.html">setVars</a></td></tr>
 <tr><td><a href="bibdk_sogesider_alle_mat.html">bibdk_sogesider_alle_mat</a></td></tr>
 <tr><td><a href="bibdk_sogesider_artikler_mat.html">bibdk_sogesider_artikler_mat</a></td></tr>
 <tr><td><a href="bibdk_sogesider_bog_mat.html">bibdk_sogesider_bog_mat</a></td></tr>
