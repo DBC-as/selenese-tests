@@ -12,11 +12,6 @@
 <tr><td rowspan="1" colspan="3">bibdk_kurv_add</td></tr>
 </thead><tbody>
 <tr>
-	<td>open</td>
-	<td>/content/da</td>
-	<td></td>
-</tr>
-<tr>
 	<td>type</td>
 	<td>id=edit-search-block-form--2</td>
 	<td>emil lønneberg</td>
@@ -32,13 +27,18 @@
 	<td></td>
 </tr>
 <tr>
+	<td>waitForElementPresent</td>
+	<td>css=[class*='slut']</td>
+	<td></td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>css=span.link-add-basket.cart-title</td>
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>link=0 poster i kurven</td>
+	<td>click</td>
+	<td>css=a[href='/content/da/user/cart']</td>
 	<td></td>
 </tr>
 <tr>
