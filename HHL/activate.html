@@ -13,12 +13,22 @@
 </thead><tbody>
 <tr>
 	<td>open</td>
-	<td>http://guesstimate.dbc.dk/~hhl/BibliotekDkSelenium/getActivationLink.php?mail_to=${userid1}</td>
+	<td>http://guesstimate.dbc.dk/~hhl/BibliotekDkSelenium/getActivationLink.php</td>
 	<td></td>
 </tr>
 <tr>
-	<td>waitForTextPresent</td>
-	<td>This page is a part of the automated testing of the http://bibliotek.dk home page</td>
+	<td>type</td>
+	<td>name=mail_to</td>
+	<td>hhl@guesstimate.dbc.dk</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=checkformail</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td></td>
 	<td></td>
 </tr>
 <tr>
