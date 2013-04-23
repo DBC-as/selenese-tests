@@ -3,39 +3,50 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://bibliotek.dk" />
-<title>bibdk_login_logind</title>
+<link rel="selenium.base" href="http://dringo.dbc.dk/" />
+<title>bibdk_minside_overskrifter</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">bibdk_login_logind</td></tr>
+<tr><td rowspan="1" colspan="3">bibdk_minside_overskrifter</td></tr>
 </thead><tbody>
 <tr>
-	<td>clickAndWait</td>
-	<td>link=Log ind</td>
-	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=edit-name</td>
-	<td>user2-bibdk@guesstimate.dbc.dk</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=edit-pass</td>
-	<td>content</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>id=edit-submit</td>
+	<td>open</td>
+	<td>/content/da</td>
 	<td></td>
 </tr>
 <tr>
 	<td>verifyTextPresent</td>
-	<td>Log ud</td>
+	<td>Min side</td>
 	<td></td>
 </tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Min side</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Favoritbiblioteker</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Mine søgninger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Mine data og indstillinger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+
 </tbody></table>
 </body>
 </html>
