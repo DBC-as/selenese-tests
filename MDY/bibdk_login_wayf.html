@@ -4,48 +4,69 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://dringo.dbc.dk/" />
-<title>bibdk_hjemme_fav</title>
+<title>bibdk_login_wayf</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">bibdk_hjemme_fav</td></tr>
+<tr><td rowspan="1" colspan="3">bibdk_login_wayf</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
-	<td>/content/da</td>
+	<td>/content/</td>
 	<td></td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>css=img[alt=&quot;Bibliotek.dk - loan of books, music, and films&quot;]</td>
+	<td>link=Log ind</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Log ind med WAYF</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log ind med WAYF</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=defaultidp</td>
 	<td></td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>id=edit-search-block-form--2</td>
-	<td>møgkællinger</td>
+	<td>id=username</td>
+	<td>0507641040</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>2755</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>id=edit-submit</td>
+	<td>css=input.button</td>
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>css=span.toggle-text</td>
+	<td>clickAndWait</td>
+	<td>link=Min side</td>
 	<td></td>
 </tr>
 <tr>
-	<td>waitForTextPresent</td>
-	<td>Er materialet hjemme på dine favoritbiblioteker</td>
+	<td>clickAndWait</td>
+	<td>id=edit-bibdk-mypage-link-profile2-tab</td>
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>link=Er materialet hjemme på dine favoritbiblioteker?</td>
+	<td>verifyTextPresent</td>
+	<td>mdy@dbc.dk</td>
 	<td></td>
 </tr>
+
 </tbody></table>
 </body>
 </html>

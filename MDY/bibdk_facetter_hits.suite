@@ -8,14 +8,9 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
-<tr><td><a href="openCONTENT.html">openCONTENT</a></td></tr>
-<tr><td><a href="bibdk_login_logind.html">bibdk_login_logind</a></td></tr>
-<tr><td><a href="bibdk_visning_morelessinfo.html">bibdk_visning_morelessinfo</a></td></tr>
-<tr><td><a href="bibdk_sehvilke.html">bibdk_sehvilke</a></td></tr>
-<tr><td><a href="bibdk_sogning_mere.html">bibdk_sogning_mere</a></td></tr>
-<tr><td><a href="bibdk_hjemme_fav.html">bibdk_hjemme_fav</a></td></tr>
-<tr><td><a href="bibdk_logud.html">bibdk_logud</a></td></tr>
 <tr><td><a href="restartBrowser.html">restartBrowser</a></td></tr>
+<tr><td><a href="bibdk_facetter_hits.html">bibdk_facetter_hits</a></td></tr>
+<tr><td><a href="setVars.html">setVars</a></td></tr>
 </tbody></table>
 </body>
 </html>
